@@ -20,9 +20,5 @@ The application demonstrates how different lighting algorithms can be selected a
 - `Lighting` - context that delegates execution to the current strategy
 - `Main` - client demonstrating strategy selection and runtime switching
 
-## Technologies
-- Java 17+
-- IntelliJ IDEA
-
 ## Design Pattern
 The Strategy Pattern encapsulates interchangeable algorithms behind a common interface. New strategies can be added without modifying the existing context class
